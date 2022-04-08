@@ -89,6 +89,52 @@ ul{
     letter-spacing: 1px;
     color: #000;
     padding-right: 250px;
-
-
 }
+
+.btn-group{
+    display:flex;
+    width:100%;
+    position: relative;
+}
+
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight:700;
+    border-radius:32px;
+    background-color: #ffa037;
+    padding:15px 50px;
+}
+
+.btn-group .play-btn{
+    margin-left:40px;
+    display: inlne-flex;
+}
+
+.btn-group span{
+    color: #000;
+    font-size:15px;
+    font-weight:700;
+    margin: auto 20px;
+    cursor: pointer;
+}
+
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #000
+}
+
+.play-btn-inner i{
+    padding:15px 19px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+
