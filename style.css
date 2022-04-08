@@ -138,3 +138,17 @@ ul{
 
 
 
+.about-services{
+    position:absolute;
+    top:125%;
+    width: 100%;
+    text-align:center;
+    margin-top:30px;
+    padding: 0 300px;
+}
+
+.about-services ul{
+    display:inline-flex;
+    margin: 30px auto;
+    text-align:center;
+}
