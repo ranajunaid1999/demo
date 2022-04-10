@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -30,6 +31,9 @@ ul{
     margin-top:20px;
 }
 
+.logo img{
+    margin-left: 100px;
+}
 .menu ul li{
     display: inline-block;
     padding: 0 25px;
@@ -42,7 +46,7 @@ ul{
 
 .login-btn{
     display:block;
-    font: size 20px;
+    font-size:20px;
     font-weight:700;
     cursor:pointer;
     border-radius:30px;
@@ -111,7 +115,7 @@ ul{
 
 .btn-group .play-btn{
     margin-left:40px;
-    display: inlne-flex;
+    display: inline-flex;
 }
 
 .btn-group span{
@@ -162,12 +166,10 @@ ul{
 .social-icons ul li{
     margin-top:5px;
     text-align:center;
-
 }
 
 
 .social-icons ul li a{
-
     color:#000;
     padding:10px;
     display:block;
